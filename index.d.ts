@@ -479,6 +479,8 @@ export interface UserLocationProps {
   showsUserHeadingIndicator?: boolean,
   minDisplacement?: number;
   children?: ReactNode;
+  renderMode?: 'normal' | 'native';
+  androidRenderMode?: 'normal' | 'compass' | 'gps';
 }
 
 export type WithExpression<T> = {
